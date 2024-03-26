@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang=" en-US">
+
+<head>
+
+  
+  <meta charset="UTF-8">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style"
+    type="text/css" crossorigin>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!-- KaTeX -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css"
+    integrity="sha384-GvrOXuhMATgEsSwCs4smul74iXGOixntILdUW9XmUC6+HX0sLNAK3q71HotJqlAn" crossorigin="anonymous">
+
+  <!-- The loading of KaTeX is deferred to speed up page rendering -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"
+    integrity="sha384-cpW21h6RZv/phavutF+AuVYrr+dA8xD9zs6FwLpaCct6O9ctzYFfFr4dgmgccOTx"
+    crossorigin="anonymous"></script>
+
+  <!-- To automatically render math in text elements, include the auto-render extension: -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+  <link rel="stylesheet" href="/edge-llm-challenge.github.io/css/cayman.css?v=">
+  <style type="text/css">
+    /* Style the tab */
+    .tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #fdfdff;
+    }
+
+    /* Style the buttons that are used to open the tab content */
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+      background-color: #ddd;
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+      background-color: #ccc;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <header class="page-header" role="banner">
+    <h1 class="project-name">Edge-Device Large Language Model Competition</h1>
+    <h2 class="project-tagline">NeurIPS 2024 Challenge</h2>
+    
+    <a href="index" class="btn">Home</a>
+    
+    <a href="challenge" class="btn">Challenge</a>
+    
+    <a href="rules" class="btn">Rules</a>
+    
+    <a href="dates" class="btn">Timeline</a>
+    
+    <a href="prizes" class="btn">Prizes</a>
+    
+    <a href="starter_kit" class="btn">Starting Kit</a>
+    
+    <a href="feedback" class="btn">Feedback</a>
+    
+    <a href="leaderboard" class="btn">Leaderboard</a>
+    
+    <a href="organizers" class="btn">Organizers</a>
+    
+    <a href="advisors" class="btn">Advisors</a>
+    
+    <a href="schedule" class="btn">Workshop</a>
+    
+    <a href="sponsors" class="btn">Sponsors</a>
+    
+    <a href="question" class="btn">Q&A</a>
+    
+
+  </header>
+
+  <main id="content" class="main-content" role="main">
+    <p style="text-align: justify;">
+The rapid advancements in artificial intelligence, particularly in the domain of natural language processing (NLP) propelled by Large Language Models (LLMs), have underscored the transformative potential of these colossal models in shaping modern modes of work and communication. Conse- quently, the prospect of integrating the expansive knowledge capacity of LLMs into edge devices, including smartphones, IoT devices, and in-car systems, holds significant promise within contempo- rary computing ecosystems. However, the massive size of LLMs presents formidable challenges for edge devices, which typically operate with constrained resources. For instance, deploying a modest 10B LLM can demand up to 20GB of main memory (DRAM), even after employing INT8 quantization techniques, a capacity that surpasses the available memory in most commodity smartphones [6]. For example, the HUAWAI P60 boasts an 8GB DRAM capacity, and the iPhone 15 offers a 6GB DRAM. Given that DRAM is shared among the operating system and other applications, mobile apps must not exceed 10% of the DRAM allocation. Additionally, the energy consumption of LLMs presents a big barrier, with a fully charged smartphone, boasting approximately 50 kJ of energy, capable of sustaining a 7B LLM conversation for less than 2 hours at a rate of 10 tokens per second. </p>
+
+<p style="text-align: justify;">
+Our goal is to to push the boundaries of what these powerful LLMs can achieve on edge devices in terms of performance, efficiency, and versatility. Specifically, our goal is to deploy LLMs on edge devices in resource-bounded scenarios and address the following major issues:</p>
+
+<ol>
+  <li>Vast amounts of memory requirements: LLM inference typically requires a significant amount of memory, a major bottleneck for off-the-shelf smartphones. Even high-end smartphones with 8GB are not sufficient for a sophisticated LLM.</li>
+  <li>Prohibitive energy consumption: Moreover, the significant energy consumption during LLM inference presents a formidable challenge to the battery life of smartphones.</li>
+  <li>Large performance loss: SOTA LLMs might require unusually high compression ratios to fit into the memory of edge devices. Such extremely high compression ratios will signifi- cantly challenge the efficacy of existing model compression techniques, where we usually see a substantial performance drop after certain high levels of compression ratios. Therefore, achieving such high compression ratios while maintaining reasonable performance is very challenging.</li>
+  <li>Lack of offline functionality: Most off-the-shelf LLMs necessitate internet connections, which limits their usage in remote areas or in situations where internet access may be intermittent.</li>
+</ol>
+
+<p style="text-align: justify;">
+This is a brand new competition, which focuses on compressing and deploying LLMs on edge devices such as smartphones to push the boundaries of what these edge-device LLMs can achieve in terms of performance, efficiency, and versatility. This challenge is unique and distinct from the conventional model compression due to several factors.
+</p>
+
+
+    <footer class="site-footer">
+      <hr>
+      <!-- 
+            <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub
+                    Pages</a>.</span> -->
+    </footer>
+  </main>
+
+</body>
+
+</html>

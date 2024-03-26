@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang=" en-US">
+
+<head>
+
+  
+  <meta charset="UTF-8">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style"
+    type="text/css" crossorigin>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!-- KaTeX -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css"
+    integrity="sha384-GvrOXuhMATgEsSwCs4smul74iXGOixntILdUW9XmUC6+HX0sLNAK3q71HotJqlAn" crossorigin="anonymous">
+
+  <!-- The loading of KaTeX is deferred to speed up page rendering -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"
+    integrity="sha384-cpW21h6RZv/phavutF+AuVYrr+dA8xD9zs6FwLpaCct6O9ctzYFfFr4dgmgccOTx"
+    crossorigin="anonymous"></script>
+
+  <!-- To automatically render math in text elements, include the auto-render extension: -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+  <link rel="stylesheet" href="/edge-llm-challenge.github.io/css/cayman.css?v=">
+  <style type="text/css">
+    /* Style the tab */
+    .tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #fdfdff;
+    }
+
+    /* Style the buttons that are used to open the tab content */
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+      background-color: #ddd;
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+      background-color: #ccc;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <header class="page-header" role="banner">
+    <h1 class="project-name">Edge-Device Large Language Model Competition</h1>
+    <h2 class="project-tagline">NeurIPS 2024 Challenge</h2>
+    
+    <a href="index" class="btn">Home</a>
+    
+    <a href="challenge" class="btn">Challenge</a>
+    
+    <a href="rules" class="btn">Rules</a>
+    
+    <a href="dates" class="btn">Timeline</a>
+    
+    <a href="prizes" class="btn">Prizes</a>
+    
+    <a href="starter_kit" class="btn">Starting Kit</a>
+    
+    <a href="feedback" class="btn">Feedback</a>
+    
+    <a href="leaderboard" class="btn">Leaderboard</a>
+    
+    <a href="organizers" class="btn">Organizers</a>
+    
+    <a href="advisors" class="btn">Advisors</a>
+    
+    <a href="schedule" class="btn">Workshop</a>
+    
+    <a href="sponsors" class="btn">Sponsors</a>
+    
+    <a href="question" class="btn">Q&A</a>
+    
+
+  </header>
+
+  <main id="content" class="main-content" role="main">
+    <h1 id="baselines-code-and-material">Baselines, code, and material</h1>
+
+<p style="text-align: justify;">
+The “starting kit” will be released to provide a starting point for people who are interested in our challenge before May 5th, 2024. This starting kit will provide detailed clarifications on what a submission looks like exactly, and how it will be evaluated and submitted. This starting kit will include an end-to-end submission flow, exemplified with a simple baseline:
+ </p>
+
+<ul>
+  <li>Loading a large language model choosing from Phi-2, Llama 2 7B, or Mamba 7B.</li>
+  <li>Performing the basic L1 norm structured pruning on this model so that the compressed model can fit the smartphone.</li>
+  <li>Evaluating the pruned model on the OpenCompass benchmark. We will provide an easy-to- tun pipeline for participants to evaluate their model on the subset of the lm-evaluation-harness benchmark.</li>
+  <li>Deploying the resulting model on a Huawei Meta 60 and measuring its TPOT. We will provide a tool that can help participants easily deploy their LLMs on Huawei smartphones and measure TPOP.</li>
+  <li>Make a submission on the Leaderboard to see how we fare up against other competitors.</li>
+</ul>
+
+<h1 id="dataset">Dataset</h1>
+
+<p style="text-align: justify;">
+This competition will not evaluate submissions based on the analysis of data. Our competition features two tracks: (1) post-training LLM compression for edge devices; and (2) training edge LLMs from scratch. For both tracks, we will allow the participants to use and only use the C4 dataset [13]. The C4 dataset is a colossal, cleaned version of Common Crawl’s web crawl corpus, which is mainly intended to pre-train language models and word representations. Language models like MPT-7B and T5 are pre-trained with C4 dataset. C4 is a large enough dataset that can make the competition interesting and draw conclusive and statistically significant results.  </p>
+<ul>
+  <li>The C4 dataset is public and can be accessed through: <a href="https://huggingface.co/datasets/c4">HuggingFace</a>
+<br /></li>
+</ul>
+
+<h1 id="metrics">Metrics</h1>
+
+<p style="text-align: justify;">
+
+To comprehensively evaluate submissions, we employ a set of rigorously curated metrics, which include:
+
+* Averaged accuracy: One of our primary scoring metrics is the averaged accuracy on a subset of the OpenCompass benchmark. This metric assesses the language capacity of the submission across seven fundamental dimensions.
+
+* Time Per Output Token (TPOT): Another critical performance metric is the average time for submitted models to generate each output token. This measurement is essential for evaluating real-time interaction between users and smartphones. TPOT can be calculated as the overall time taken by the model to generate the full response divided by the number of generated tokens. This value is expected to be measured on a Huawei Meta 60 with 12GB DRAM.
+
+* Parameter count: Submissions should also include the model size, expressed as the parameter count, to indicate the model’s size.
+
+</p>
+
+
+
+    <footer class="site-footer">
+      <hr>
+      <!-- 
+            <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub
+                    Pages</a>.</span> -->
+    </footer>
+  </main>
+
+</body>
+
+</html>

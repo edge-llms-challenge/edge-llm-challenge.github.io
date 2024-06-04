@@ -26,13 +26,14 @@ This competition will not evaluate submissions based on the analysis of data. Ou
 <p style='text-align: justify;'>
 
 To comprehensively evaluate submissions, we employ a set of rigorously curated metrics, which include:
-
-* Average Score: One of our primary scoring metrics is the average score on a subset of the OpenCompass benchmark. The average score is calculated as the geometric mean across all evaluation tasks. This metric assesses the language capacity of the submission across multiple fundamental dimensions. <br>
-
-* Throughput: The throughput of an LLM typically refers to the rate at which the model can process input data and generate output tokens. It is often measured in terms of tokens per second. Throughput is a critical metric for evaluating the efficiency and performance of LLMs, especially in real-time or near-real-time applications where the speed of processing is crucial. Achieving high throughput implies that the model can handle large volumes of data quickly, making it suitable for tasks requiring rapid language processing, such as live chatbots, real-time translation, or speech recognition systems. This value is expected to be measured on a smartphone with 12GB DRAM. <br>
-
-* Parameter count: Submissions should also include the model size, expressed as the parameter count, to indicate the model’s size. <br>
-
 </p>
+
+* Average Score: One of our primary scoring metrics is the average score on a subset of the OpenCompass benchmark. The average score is calculated as the geometric mean across all evaluation tasks. This metric assesses the language capacity of the submission across multiple fundamental dimensions.
+
+* Throughput: The throughput of an LLM typically refers to the rate at which the model can process input data and generate output tokens. It is often measured in terms of tokens per second. Throughput is a critical metric for evaluating the efficiency and performance of LLMs, especially in real-time or near-real-time applications where the speed of processing is crucial. Achieving high throughput implies that the model can handle large volumes of data quickly, making it suitable for tasks requiring rapid language processing, such as live chatbots, real-time translation, or speech recognition systems. This value is expected to be measured on a smartphone with 12GB DRAM.
+
+* Parameter count: Submissions should also include the model size, expressed as the parameter count, to indicate the model’s size.
+
+
 
 

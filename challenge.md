@@ -5,7 +5,7 @@ layout: default
 # Baselines, code, and material
 
 <p style='text-align: justify;'>
-The “starting kit” will be released to provide a starting point for people who are interested in our challenge before May 5th, 2024. This starting kit will provide detailed clarifications on what a submission looks like exactly, and how it will be evaluated and submitted. This starting kit will include an end-to-end submission flow, exemplified with a simple baseline:
+The “starting kit” will be released to provide a starting point for people who are interested in our challenge before June 20th, 2024. This starting kit will provide detailed clarifications on what a submission looks like exactly, and how it will be evaluated and submitted. This starting kit will include an end-to-end submission flow, exemplified with a simple baseline:
  </p>
 
 * Loading a large language model choosing from Phi-2, Llama3-8B, or Qwen-7B.

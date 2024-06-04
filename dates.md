@@ -11,11 +11,11 @@ layout: default
     </tr>
     <tr>
         <td width="50%"><b>The website’s entire content including the “starting kit” will be released</b></td>
-        <td width="50%">May 5th, 2024</td>
+        <td width="50%">June 20th, 2024</td>
     </tr>
     <tr>
         <td width="50%"><b>Submission Open</b></td>
-        <td width="50%">May 25th, 2024</td>
+        <td width="50%">June 25th, 2024</td>
     </tr>
     <tr>
         <td width="50%"><b>Submission Deadline</b></td>

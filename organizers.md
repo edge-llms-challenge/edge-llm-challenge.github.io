@@ -5,15 +5,17 @@ layout: default
 # Organizers
 
 * Shiwei Liu
-* Cong (Callie) Hao
-* Rebekka Burkholz
-* Olga Saukh
-* Jared Tanner
-* Yunhe Wang
 * Kai Han
-* Boqian Wu
 * Adriana Fernandez-Lopez
 * Ajay Jaiswal
 * Zahra Atashgahi
+* Boqian Wu
+* Rebekka Burkholz
 * Edoardo M. Ponti
+* Cong Hao
+* Olga Saukh
 * Lu Yin
+* Tianjin Huang
+* Andreas Zinonos
+* Jared Tanner
+* Yunhe Wang

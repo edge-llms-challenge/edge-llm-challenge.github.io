@@ -4,7 +4,6 @@ layout: default
 # Tracks
 
 <p style='text-align: justify;'>
- 
 1. <b> Post-training LLM compression for edge devices:</b> teams are required to come up with their own compression approaches to reduce the size of three pre-trained LLMs separately: Phi-2, Llama3-7B, and Qwen-7B. The submitted compressed models should operate on a smartphone with 12 GB DRAM. Entries will be evaluated based on the averaged scores of the three models on a portion of the OpenCompass benchmark, which performs an in-depth and holistic assessment of LLMs across multiple fundamental dimensions. </p>
 
 <p style='text-align: justify;'>
@@ -23,7 +22,7 @@ To comprehensively evaluate submissions, we will employ a set of rigorously cura
 
 * <b>Performance Score:</b> One of our primary scoring metrics is the performance score on the selected evaluation task. Each submission will be ranked individually for each task based on the performance score, with the top 10 submissions per task receiving scores from 10 to 1. The final score of the submission is calculated as the sum across all evaluation tasks.
   
-*<b>Memory Requirement:</b> The memory footprint during inference is a crucial metric for real-life edge devices. To qualify, the peak memory usage of all models must be less than 12GB.
+* <b>Memory Requirement:</b> The memory footprint during inference is a crucial metric for real-life edge devices. To qualify, the peak memory usage of all models must be less than 12GB.
 
 * <b>Throughput:</b> The throughput of an LLM typically refers to the rate at which the model can process input data and generate output tokens. It is often measured in terms of tokens per second. Throughput is a critical metric for evaluating the efficiency and performance of LLMs, especially in real-time or near-real-time applications where the speed of processing is crucial. Achieving high throughput implies that the model can handle large volumes of data quickly, making it suitable for tasks requiring rapid language processing, such as live chatbots, real-time translation, or speech recognition systems. This value will be measured on a smartphone with 12GB DRAM.
 

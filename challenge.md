@@ -4,10 +4,13 @@ layout: default
 # Tracks
 
 <p style='text-align: justify;'>
-1. <b> Post-training LLM compression for edge devices:</b> teams are required to come up with their own compression approaches to reduce the size of three pre-trained LLMs separately: Phi-2, Llama3-7B, and Qwen-7B. The submitted compressed models should operate on a smartphone with 12 GB DRAM. Entries will be evaluated based on the averaged scores of the three models on a portion of the OpenCompass benchmark, which performs an in-depth and holistic assessment of LLMs across multiple fundamental dimensions. 
  
-2. <b> Training edge LLMs from scratch:</b> involves training language models from scratch without leveraging any pre-trained LLMs. No limitations are placed on model designs, training procedures, or time as long as the final models can run on a smartphone with 12 GB DRAM. Participants can either design their architectures or leverage existing LLM architectures to fulfill this task.  Although, there is a restriction on the training data; only the C4 and Alpaca datasets are allowed for training and fine-tuning respectively.
-  
+1. <b> Post-training LLM compression for edge devices:</b> teams are required to come up with their own compression approaches to reduce the size of three pre-trained LLMs separately: Phi-2, Llama3-7B, and Qwen-7B. The submitted compressed models should operate on a smartphone with 12 GB DRAM. Entries will be evaluated based on the averaged scores of the three models on a portion of the OpenCompass benchmark, which performs an in-depth and holistic assessment of LLMs across multiple fundamental dimensions. </p>
+
+<p style='text-align: justify;'>
+2. <b> Training edge LLMs from scratch:</b> involves training language models from scratch without leveraging any pre-trained LLMs. No limitations are placed on model designs, training procedures, or time as long as the final models can run on a smartphone with 12 GB DRAM. Participants can either design their architectures or leverage existing LLM architectures to fulfill this task.  Although, there is a restriction on the training data; only the C4 and Alpaca datasets are allowed for training and fine-tuning respectively.</p>
+
+<p style='text-align: justify;'>
 <b>Please note that no quantization methods are allowed</b> since 8-bit or 4-bit quantization for LLMs is already a well-established technique. Instead, participants must submit models in FP16 or FP32 formats.
 </p>
 

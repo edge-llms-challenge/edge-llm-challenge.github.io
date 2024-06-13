@@ -1,6 +1,8 @@
 ---
-layout: default
+layout: default 
 ---
+
+<span style="display:block;text-align:center">![Alt text](assets/logo3.png "Title")</span>
 
 # Motivation
 

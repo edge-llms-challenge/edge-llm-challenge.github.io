@@ -3,19 +3,9 @@ layout: default
 ---
 
 # Q&A
-<!-- # Q&A
-We will provide answers to some common questions here. Please join us on Discord for further questions, discussions, and the most up-to-date announcements<br>
+We will provide answers to some common questions here. Please join us on Discord for further questions, discussions, and the most up-to-date announcements.
 
-[https://discord.gg/XJwQ5ddMK7](https://discord.gg/XJwQ5ddMK7)
+Discord for discussions and up-to-date announcements: [Discord](https://discord.gg/4a5FNSfg)
 
----
 
-**Size of A100?** <br>
-40GB version only. 
-
-**What's the maximum prompt/completion lengths that we should expect the models to be able to handle?** <br>
-2048 tokens
-
-**Is it safe to assume that the evaluation is on English text?** <br>
-Yes.  -->
 

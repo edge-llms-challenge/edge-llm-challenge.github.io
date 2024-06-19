@@ -4,7 +4,7 @@ layout: default
 
 # Organizers
 
-* Shiwei Liu
+<!-- * Shiwei Liu
 * Kai Han
 * Adriana Fernandez-Lopez
 * Ajay Jaiswal
@@ -18,4 +18,37 @@ layout: default
 * Tianjin Huang
 * Andreas Zinonos
 * Jared Tanner
-* Yunhe Wang
+* Yunhe Wang -->
+
+<table cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+    <tr>
+        <td style="text-align: center; border: none;">
+        <figure><img src="assets/shiwei_liu.jpg" height="150"><figcaption>Shiwei Liu, University of Oxford</figcaption></figure></td>
+        <td style="text-align: center; border: none;"><figure><img src="assets/kai_han.jpeg" height="150"><figcaption>Kai Han, Huawei Noah’s Ark Lab</figcaption></figure></td>
+        <td style="text-align: center; border: none;"><figure><img src="assets/adriana.jpg" height="150"><figcaption>Adriana Fernandez-Lopez, Meta AI</figcaption></figure></td>
+    </tr> 
+    <tr>
+        <td style="text-align: center; border: none;">
+        <figure><img src="assets/ajay.jpeg" height="150"><figcaption>Ajay Jaiswal, University of Texas</figcaption></figure></td>
+        <td style="text-align: center; border: none;"><figure><img src="assets/zahra.png" height="150"><figcaption>Zahra Atashgahi, University of Twente</figcaption></figure></td>
+        <td style="text-align: center; border: none;"><figure><img src="assets/boqian.jpeg" height="150"><figcaption>Boqian Wu, University of Twent</figcaption></figure></td>
+    </tr> 
+        <tr>
+        <td style="text-align: center; border: none;">
+        <figure><img src="assets/rebekka.jpg" height="150"><figcaption>Rebekka Burkholz, CISPA</figcaption></figure></td>
+        <td style="text-align: center; border: none;"><figure><img src="assets/edoardo.jpeg" height="150"><figcaption>Edoardo M. Ponti, University of Edinburgh</figcaption></figure></td>
+        <td style="text-align: center; border: none;"><figure><img src="assets/callie.jpeg" height="150"><figcaption>Callie Hao,  Georgia Tech</figcaption></figure></td>
+    </tr> 
+        <tr>
+        <td style="text-align: center; border: none;">
+        <figure><img src="assets/olga.png" height="150"><figcaption>Olga Saukh, TU Graz</figcaption></figure></td>
+        <td style="text-align: center; border: none;"><figure><img src="assets/lu.jpeg" height="150"><figcaption>Lu Yin, University of Surrey</figcaption></figure></td>
+        <td style="text-align: center; border: none;"><figure><img src="assets/tianjin.jpeg" height="150"><figcaption>Tianjin Huang,  University of Exeter</figcaption></figure></td>
+    </tr> 
+        <tr>
+        <td style="text-align: center; border: none;">
+        <figure><img src="assets/andreas.jpeg" height="150"><figcaption>Andreas Zinonos, Imperial College London</figcaption></figure></td>
+        <td style="text-align: center; border: none;"><figure><img src="assets/jared.png" height="150"><figcaption>Jared Tanner, University of Oxford</figcaption></figure></td>
+        <td style="text-align: center; border: none;"><figure><img src="assets/yunhe.jpg" height="150"><figcaption>Yunhe Wang, Huawei Noah's Ark Lab</figcaption></figure></td>
+    </tr> 
+</table>

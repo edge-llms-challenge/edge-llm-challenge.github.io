@@ -3,7 +3,14 @@ layout: default
 ---
 
 # Competition Registration
-Please complete a registration form per team [Competition form](https://forms.gle/djF4kBH4wiewnDmA6).
+
+Please complete a registration form per team [competition form](https://forms.gle/djF4kBH4wiewnDmA6) as soon as possible, as it is mandatory to register before <b>the deadline of July 25th</b>. 
+
+This is an important step in ensuring that we have all the necessary information and resources in place to make the event a success.
+Unfortunately, any team that fails to register before the deadline will not be qualified to participate in the event. 
+
+We encourage all teams to take the time to register as soon as possible to avoid any disappointment. If you have any questions or concerns about the registration process, please don't hesitate to reach out to us. We are here to help and support you every step of the way.
+
 
 # Volunteer Registration
 

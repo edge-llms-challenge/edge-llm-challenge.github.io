@@ -15,7 +15,7 @@ layout: default
 
 # Submission
 <p style='text-align: justify;'>
-To participate in the challenge, you need to submit your entry by filling out a form. The form requires you to provide a link to your GitHub repository where your code is hosted. Additionally, you should <b> add our repository <i> edge-llms-challenge</i> as a collaborator on your repository</b>. This will allow us to access and review your code. </p>
+To participate in the challenge, you need to submit your entry by filling out a form. The form requires you to provide a link to your GitHub repository where your code is hosted. Additionally, you should <b> add our repository <i> edge-llms-challenge</i> as a collaborator on your repository</b>. This will allow us to access and review your code.</p>
 
 Here are the steps to complete the submission:
 
@@ -24,6 +24,8 @@ Here are the steps to complete the submission:
 3. Fill out the [submission form](https://forms.gle/S367FfxUDcjSKz1Q9) with the required information, including the link to your GitHub repository.
 4. Add the edge-llm-challenge repository as a collaborator on your repository.
 5. Submit the form to complete your entry.
+
+Please, refer to this [link](https://github.com/TianjinYellow/EdgeDeviceLLMCompetition-Starting-Kit?tab=readme-ov-file#submission-requirements) for more details about the submission.
 
 By following these steps, you will have successfully submitted your entry for the challenge. Good luck!
 

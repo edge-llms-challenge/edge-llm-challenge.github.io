@@ -124,9 +124,10 @@ To participate in the challenge, you need to submit your entry by filling out a 
 
 <ol>
   <li>Create a GitHub repository for your project.</li>
-  <li>Add your code to the repository.</li>
+  <li>Add your code to the repository, including the source code for pre-training or compression, model definition files, configuration files, and a CSV file containing evaluated results that are evaluated locally.</li>
+  <li>A .txt file containing Google Drive links to download model checkpoints and the compiled model for building Android APP.</li>
   <li>Fill out the <a href="https://forms.gle/S367FfxUDcjSKz1Q9">submission form</a> with the required information, including the link to your GitHub repository.</li>
-  <li>Add the edge-llm-challenge repository as a collaborator on your repository.</li>
+  <li>Add the edge-llm-challenge repository as a collaborator on your repository and meanwhile make your repository as private.</li>
   <li>Submit the form to complete your entry.</li>
 </ol>
 
@@ -164,9 +165,8 @@ The “starting kit” will be released to provide a starting point for people w
 
 <ul>
   <li>Loading a large language model choosing from <b>Phi-2, Llama3-8B, or Qwen-7B</b>.</li>
-  <li>Performing the basic L1 norm structured pruning on this model so that the compressed model can fit the smartphone.</li>
-  <li>Evaluating the pruned model on the OpenCompass benchmark. We will provide an easy-to-tun pipeline for participants to evaluate their model on the subset of the OpenCompass benchmark.</li>
-  <li>Deploying the resulting model on a smartphone platform and measuring its throughput. We will provide a tool that can help participants easily deploy their LLMs on the smartphone platform and measure throughput.</li>
+  <li>Evaluating the pruned model on the OpenCompass benchmark. We will provide an easy-to-run pipeline for participants to evaluate their model on the subset of the OpenCompass benchmark. We will also provide a tool for measuring the throughput and GPU memory usage of a LLM.</li>
+  <li>Compile a model into a binary model library that can be run on android devices. We will provide a tool that can help participants easily deploy their LLMs on the smartphone platform.</li>
 </ul>
 
 <h1 id="datasets">Datasets</h1>

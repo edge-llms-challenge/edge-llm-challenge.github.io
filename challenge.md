@@ -20,10 +20,11 @@ To participate in the challenge, you need to submit your entry by filling out a 
 Here are the steps to complete the submission:
 
 1. Create a GitHub repository for your project.
-2. Add your code to the repository.
-3. Fill out the [submission form](https://forms.gle/S367FfxUDcjSKz1Q9) with the required information, including the link to your GitHub repository.
-4. Add the edge-llm-challenge repository as a collaborator on your repository.
-5. Submit the form to complete your entry.
+2. Add your code to the repository, including the source code for pre-training or compression, model definition files, configuration files, and a CSV file containing evaluated results that are evaluated locally.
+3. A .txt file containing Google Drive links to download model checkpoints and the compiled model for building Android APP. 
+4. Fill out the [submission form](https://forms.gle/S367FfxUDcjSKz1Q9) with the required information, including the link to your GitHub repository.
+5. Add the edge-llm-challenge repository as a collaborator on your repository and meanwhile make your repository as private.
+6. Submit the form to complete your entry.
 
 Please, refer to this [link](https://github.com/TianjinYellow/EdgeDeviceLLMCompetition-Starting-Kit?tab=readme-ov-file#submission-requirements) for more details about the submission.
 
@@ -51,9 +52,8 @@ The “starting kit” will be released to provide a starting point for people w
  </p>
 
 * Loading a large language model choosing from <b>Phi-2, Llama3-8B, or Qwen-7B</b>.
-* Performing the basic L1 norm structured pruning on this model so that the compressed model can fit the smartphone.
-* Evaluating the pruned model on the OpenCompass benchmark. We will provide an easy-to-tun pipeline for participants to evaluate their model on the subset of the OpenCompass benchmark. 
-* Deploying the resulting model on a smartphone platform and measuring its throughput. We will provide a tool that can help participants easily deploy their LLMs on the smartphone platform and measure throughput.
+* Evaluating the pruned model on the OpenCompass benchmark. We will provide an easy-to-run pipeline for participants to evaluate their model on the subset of the OpenCompass benchmark. We will also provide a tool for measuring the throughput and GPU memory usage of a LLM.
+* Compile a model into a binary model library that can be run on android devices. We will provide a tool that can help participants easily deploy their LLMs on the smartphone platform.
 
 # Datasets
 

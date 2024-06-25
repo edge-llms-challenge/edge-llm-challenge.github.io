@@ -54,23 +54,3 @@ Please join us on Discord for discussions and up-to-date announcements: [Discord
     </tr>
 </table>
 
-# Holdout datasets
-
-<table class="foo">
-    <tr>
-        <td width="50%"><b>Dataset</b></td>
-        <td width="50%"><b>Dimension</b></td>
-        <td width="100%"><b>Source</b></td>
-    </tr>
-    <tr>
-        <td width="50%">TyDiQA</td>
-        <td width="50%">Knowledge</td>
-         <td width="100%"><a href="https://github.com/google-research-datasets/tydiqa">https://github.com/google-research-datasets/tydiqa</a></td>
-    </tr>
-    <tr>
-        <td width="50%">MATH</td>
-        <td width="50%">Math</td>
-         <td width="100%"><a href="https://github.com/hendrycks/math?tab=readme-ov-file">https://github.com/hendrycks/math?tab=readme-ov-file</a></td>
-    </tr>
-</table>
-

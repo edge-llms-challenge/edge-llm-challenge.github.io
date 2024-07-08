@@ -31,7 +31,7 @@ layout: default
         <td style="text-align: center; border: none;">
         <figure><img src="assets/ajay.jpeg" height="150"><figcaption>Ajay Jaiswal, University of Texas</figcaption></figure></td>
         <td style="text-align: center; border: none;"><figure><img src="assets/zahra.png" height="150"><figcaption>Zahra Atashgahi, University of Twente</figcaption></figure></td>
-        <td style="text-align: center; border: none;"><figure><img src="assets/boqian.jpeg" height="150"><figcaption>Boqian Wu, University of Twent</figcaption></figure></td>
+        <td style="text-align: center; border: none;"><figure><img src="assets/boqian.jpeg" height="150"><figcaption>Boqian Wu, University of Twente</figcaption></figure></td>
     </tr> 
         <tr>
         <td style="text-align: center; border: none;">

@@ -11,7 +11,7 @@ layout: default
     </tr>
     <tr>
         <td width="50%"><b>Registration deadline and submission open</b></td>
-        <td width="50%">July 25th, 2024</td>
+        <td width="50%">Extended to August 1st, 2024</td>
     </tr>
     <tr>
         <td width="50%"><b>Preliminary review deadline</b></td>

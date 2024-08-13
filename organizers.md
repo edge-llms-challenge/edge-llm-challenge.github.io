@@ -51,4 +51,8 @@ layout: default
         <td style="text-align: center; border: none;"><figure><img src="assets/jared.png" height="150"><figcaption>Jared Tanner, University of Oxford</figcaption></figure></td>
         <td style="text-align: center; border: none;"><figure><img src="assets/yunhe.jpg" height="150"><figcaption>Yunhe Wang, Huawei Noah's Ark Lab</figcaption></figure></td>
     </tr> 
+    <tr>
+        <td style="text-align: center; border: none;">
+        <figure><img src="assets/zhangsongyang_2024.jpg" height="150"><figcaption>Songyang Zhang, Shanghai AI Laboratory</figcaption></figure></td>
+    </tr> 
 </table>

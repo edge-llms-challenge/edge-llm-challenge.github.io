@@ -17,12 +17,12 @@ layout: default
 <p style='text-align: justify;'>
 To participate in the challenge, you need to submit your entry by filling out a form. The form requires you to provide a link to your GitHub repository where your code is hosted. Additionally, you should <b> add our repository <i> edge-llms-challenge</i> as a collaborator on your repository</b>. This will allow us to access and review your code.</p>
 
-Here are the steps to complete the submission:
+Here are the steps to complete the <b>pre-submission</b> and the <b>final submission</b>:
 
 1. Create a GitHub repository for your project.
 2. Add your code to the repository, including the source code for pre-training or compression, model definition files, configuration files, and a CSV file containing evaluated results that are evaluated locally.
 3. A .txt file containing Google Drive links to download model checkpoints and the compiled model for building Android APP. 
-4. Fill out the [submission form](https://forms.gle/S367FfxUDcjSKz1Q9) with the required information, including the link to your GitHub repository.
+4. Fill out the [pre-submission form](https://forms.gle/8nTfH3zofibr18eQA) or the [final submission form](https://forms.gle/S367FfxUDcjSKz1Q9) with the required information, including the link to your GitHub repository.
 5. Add the edge-llm-challenge repository as a collaborator on your repository and meanwhile make your repository as private.
 6. Submit the form to complete your entry.
 
@@ -96,7 +96,6 @@ The evaluation process in our competition will include two stages.
          <td width="100%"><a href="https://github.com/chujiezheng/ChID-Dataset">https://github.com/chujiezheng/ChID-Dataset</a></td>
     </tr>
 </table>
-
 
 # Metrics
 

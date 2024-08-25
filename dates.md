@@ -15,7 +15,7 @@ layout: default
     </tr>
     <tr>
         <td width="50%"><b>Preliminary review deadline</b></td>
-        <td width="50%">August 25th, 2024</td>
+        <td width="50%">Extended to September 4th, 2024</td>
     </tr>
     <tr>
         <td width="50%"><b>Submission Deadline</b></td>

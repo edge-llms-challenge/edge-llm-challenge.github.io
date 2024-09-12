@@ -23,7 +23,7 @@ layout: default
 <table cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
     <tr>
         <td style="text-align: center; border: none;">
-        <figure><img src="assets/shiwei_liu.jpg" height="150"><figcaption>Shiwei Liu, University of Oxford</figcaption></figure></td>
+        <figure><img src="assets/shiwei_liu.jpg" height="150"><figcaption>Shiwei Liu, <br> University of Oxford</figcaption></figure></td>
         <td style="text-align: center; border: none;"><figure><img src="assets/kai_han.jpeg" height="150"><figcaption>Kai Han, Huawei Noah’s Ark Lab</figcaption></figure></td>
         <td style="text-align: center; border: none;"><figure><img src="assets/adriana.jpg" height="150"><figcaption>Adriana Fernandez-Lopez, Meta AI</figcaption></figure></td>
     </tr> 
@@ -37,12 +37,12 @@ layout: default
         <td style="text-align: center; border: none;">
         <figure><img src="assets/rebekka.jpg" height="150"><figcaption>Rebekka Burkholz, CISPA</figcaption></figure></td>
         <td style="text-align: center; border: none;"><figure><img src="assets/edoardo.jpeg" height="150"><figcaption>Edoardo M. Ponti, University of Edinburgh</figcaption></figure></td>
-        <td style="text-align: center; border: none;"><figure><img src="assets/callie.png" height="150"><figcaption>Callie Hao,  Georgia Tech</figcaption></figure></td>
+        <td style="text-align: center; border: none;"><figure><img src="assets/callie.png" height="150"><figcaption>Callie Hao, <br> Georgia Tech</figcaption></figure></td>
     </tr> 
         <tr>
         <td style="text-align: center; border: none;">
-        <figure><img src="assets/olga.png" height="150"><figcaption>Olga Saukh, TU Graz</figcaption></figure></td>
-        <td style="text-align: center; border: none;"><figure><img src="assets/lu.jpeg" height="150"><figcaption>Lu Yin, University of Surrey</figcaption></figure></td>
+        <figure><img src="assets/olga.png" height="150"><figcaption>Olga Saukh, <br> TU Graz</figcaption></figure></td>
+        <td style="text-align: center; border: none;"><figure><img src="assets/lu.jpeg" height="150"><figcaption>Lu Yin, <br> University of Surrey</figcaption></figure></td>
         <td style="text-align: center; border: none;"><figure><img src="assets/tianjin.jpeg" height="150"><figcaption>Tianjin Huang,  University of Exeter</figcaption></figure></td>
     </tr> 
         <tr>

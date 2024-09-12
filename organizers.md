@@ -54,7 +54,7 @@ layout: default
     <tr>
         <td style="text-align: center; border: none;">
         <figure><img src="assets/zhangsongyang_2024.jpg" height="150"><figcaption>Songyang Zhang, Shanghai AI Laboratory</figcaption></figure></td>
-        <td style="text-align: center; border: none;"><figure><img src="assets/Zhongqian_fu.jpg" height="150"><figcaption>Zhongqian Fu, Huawai</figcaption></figure></td>
-        <td style="text-align: center; border: none;"><figure><img src="assets/yehui_tang.jpeg" height="150"><figcaption>Yehui Tang, Huawei</figcaption></figure></td>
+        <td style="text-align: center; border: none;"><figure><img src="assets/Zhongqian_fu.jpg" height="150"><figcaption>Zhongqian Fu, Huawei Noah's Ark Lab</figcaption></figure></td>
+        <td style="text-align: center; border: none;"><figure><img src="assets/yehui_tang.jpeg" height="150"><figcaption>Yehui Tang, Huawei Noah's Ark Lab</figcaption></figure></td>
     </tr> 
 </table>

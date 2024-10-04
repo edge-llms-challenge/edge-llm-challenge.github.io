@@ -118,7 +118,7 @@ To comprehensively evaluate submissions, we will employ a set of rigorously cura
 The “starting kit” will be released to provide a starting point for people who are interested in our challenge before June 25th, 2024. This starting kit will provide detailed clarifications on what a submission looks like exactly, and how it will be evaluated and submitted. This starting kit will include an end-to-end submission flow, exemplified with a simple baseline:
  </p>
 
-* Loading a large language model choosing from <b>Phi-2, Llama3-8B, or Qwen-7B</b>.
+* Loading a large language model choosing from <b>Phi-2, Llama3-8B-Instruct, or Qwen-7B-Instruct</b>.
 * Evaluating the pruned model on the OpenCompass benchmark. We will provide an easy-to-run pipeline for participants to evaluate their model on the subset of the OpenCompass benchmark. We will also provide a tool for measuring the throughput and GPU memory usage of a LLM.
 * Compile a model into a binary model library that can be run on android devices. We will provide a tool that can help participants easily deploy their LLMs on the smartphone platform.
 

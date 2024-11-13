@@ -2,9 +2,12 @@
 layout: default
 ---
 
-# Schedule
-<p align="center">
-<b>Our in person workshop for NeurIPS 2024 will be held on Sunday Dec 15 at 13:30</b><br>
-</p>
+# NeurIPS 2024 In-Person Workshop
+<b>We are excited to announce that our in-person workshop for NeurIPS 2024 will take place on:</b><br>
+
+* <p style='text-align: justify;'><b>Date</b>: Sunday, December 15th
+* <p style='text-align: justify;'><b>Time</b>: 13:30 - 16:30
+* <p style='text-align: justify;'><b>Location</b>: [To be announced]
+* <p style='text-align: justify;'><b>Schedule</b>: 
 
 ![Local Image](assets/challenge_schedule.png)

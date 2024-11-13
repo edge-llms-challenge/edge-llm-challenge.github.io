@@ -17,6 +17,7 @@ navigation:
   Challenge: "challenge"
   Rules: "rules"
   Timeline: "dates"
+  Workshop: "schedule"
   Prizes: "prizes"
   Starting Kit: "starter_kit"
   Registration: "registration"
@@ -24,7 +25,6 @@ navigation:
   Leaderboard: "leaderboard"
   Organizers: "organizers"
   #Advisors: "advisors"
-  Workshop: "schedule"
   Sponsors: "sponsors"
   Q&A: "question"
 markdown: kramdown

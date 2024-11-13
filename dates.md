@@ -26,7 +26,7 @@ layout: default
         <td width="50%">December 1st, 2024</td>
     </tr>
     <tr>
-        <td width="50%"><b>In-person Workshop</b></td>
-        <td width="50%">December 11th, 2024</td>
+        <td width="50%"><b> <a href="schedule">In-person Workshop</a></b></td>
+        <td width="50%">December 15th, 2024</td>
     </tr>
 </table>

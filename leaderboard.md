@@ -17,7 +17,7 @@ layout: default
 * 3rd - <b>Team NG</b>: Jianyuan Guo and Han Wu [Repo](https://github.com/ggjy/EdgeDeviceLLMCompetition-TeamNG-Track2 )
 
 ### Track 3
-* 1st - <b>OX Team</b>: Huifang Kang, Wenqi Zhu, Jingdong Gu [Repo]()
-* 2nd - <b>Pozole</b>: Kun Zhao, Xueru Wen [Repo]()
+* 1st - <b>OX Team</b>: Huifang Kang, Wenqi Zhu, Jingdong Gu [Repo](https://github.com/Ox-Team-edgellm/OXteam_edgellm)
+* 2nd - <b>Pozole</b>: Kun Zhao, Xueru Wen [Repo](https://github.com/Accelerational/EdgeDeviceLLMCompetition-TeamPozole-Track3)
 
 

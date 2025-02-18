@@ -13,6 +13,11 @@ layout: default
 <b>Please note that quantization methods are not allowed</b> since 8-bit or 4-bit quantization for LLMs is a well-established technique. Participants must submit models in FP16 or FP32 format.
 </p>
 
+<p style='text-align: justify;'>
+<b>3. Mixture-of-Experts (MoE) Compression Challenge:</b> in this track, participants are provided with two MoE-based checkpoints—Mixtral 8×7B and MoE-1B-7B—and must compress each model by at least 30% while retaining competitive performance on a subset of the OpenCompass benchmark. The compressed models must run in FP16 or FP32 precision (quantization is not allowed). Teams may employ various compression strategies—such as expert pruning, merging experts, or parameter sharing. Each model will be evaluated on a subset of the OpenCompass benchmark, and for each task, the final submission score will be determined by calculating the average score of the two models involved.
+</p>
+
+
 # Submission
 <p style='text-align: justify;'>
 To participate in the challenge, you need to submit your entry by filling out a form. The form requires you to provide a link to your GitHub repository where your code is hosted. Additionally, you should <b> add our repository <i> edge-llms-challenge</i> as a collaborator on your repository</b>. This will allow us to access and review your code.</p>

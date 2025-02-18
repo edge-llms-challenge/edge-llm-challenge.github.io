@@ -16,4 +16,8 @@ layout: default
 * 2nd - <b>NICSEffalg</b>: Zhihang Yuan, Hanling Zhang, Shiyao Li, Xuefei Ning and Yu Wang [Repo](https://github.com/Probe100/EdgeDeviceLLMCompetition-NEffalg-Track1)
 * 3rd - <b>Team NG</b>: Jianyuan Guo and Han Wu [Repo](https://github.com/ggjy/EdgeDeviceLLMCompetition-TeamNG-Track2 )
 
+### Track 3
+* 1st - <b>OX Team</b>: Wenqi Zhu, Stephanie Kang, Jingdong Gu [Repo]
+* 2nd - <b>Pozole</b>: Kun Zhao, Xueru Wen [Repo]
+
 Please check the final results [here](https://docs.google.com/spreadsheets/d/1Z8lB7ryalf5vTHQuVZQcLvLlPnDP-FLBSwQoqI2kIiE/edit?usp=sharing)

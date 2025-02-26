@@ -2,6 +2,11 @@
 # title:       <img src="assets/logo3.png" alt="Logo" width="50" height="50">  Edge-Device Large Language Model Competition
 title:       Edge-Device Large Language Model Competition
 description: NeurIPS 2024 Challenge
+
+exclude:
+  - '*'
+  - '**/*'
+  
 paginate:     1
 locale:       "en"
 

@@ -3,12 +3,27 @@
 title:       Edge-Device Large Language Model Competition
 description: NeurIPS 2024 Challenge
 
-exclude:
-  - '*'
-  - '**/*'
-  
+
+baseurl:      "/edge-llm-challenge.github.io"
 paginate:     1
 locale:       "en"
+ 
+ # About/contact
+author:
+ #name:       Author name
+ url:       "https://edge-llms-challenge.github.io" 
+
+ 
+
+# exclude:
+#   - '*'
+#   - '**/*'
+  
+# paginate:     1
+# locale:       "en"
+
+
+
 
 # About/contact
 author:
